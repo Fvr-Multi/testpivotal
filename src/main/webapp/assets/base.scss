@@ -1,0 +1,36 @@
+// color palette starts from here
+$pale-grey-two : #eaeff3;
+$green: #18b770;
+$primary-text:rgba(70, 81, 102, 0.7);
+$orange:#ed6c0d;
+$border :#dde5eb;
+$heading :#465166;
+$white:#fff;
+$red:#c80039;
+$box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+// color palette ends
+
+// units variables starts from here
+$rem : 1rem;
+
+@mixin transition($property) {
+    -webkit-transition: $property;
+       -moz-transition: $property;
+        -ms-transition: $property;
+         -o-transition: $property;
+            transition: $property;
+}
+@mixin radius($property) {
+    -webkit-border-radius: $property;
+       -moz-border-radius: $property;
+        -ms-border-radius: $property;
+         -o-border-radius: $property;
+            border-radius: $property;
+}
+@mixin transform($property) {
+    -webkit-transform: $property;
+       -moz-transform: $property;
+        -ms-transform: $property;
+         -o-transform: $property;
+            transform: $property;
+}
