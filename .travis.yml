@@ -1,0 +1,9 @@
+language: java
+deploy:
+  provider: cloudfoundry
+  username: dontreply1233@gmail.com
+  password: Dontreply@123
+  api: https://api.run.pivotal.io
+  organization: testpivotal
+  space: kanna
+  manifest: manifest.yml
