@@ -1,0 +1,7 @@
+mainfest.yml
+   applications:
+- name: api.pivotaltesting.in
+  buildpack: java_buildpack
+  memory: 1G
+  instances: 1
+  path: target/carsaleapp-0.0.1-SNAPSHOT.war 
